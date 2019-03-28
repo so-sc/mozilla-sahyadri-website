@@ -7,7 +7,7 @@ const IndexPage = () => (
     <b><br /><p style={{textAlign:'center'}}>Official Website of the Mozilla Campus Club at Sahyadri College of Engineering and Management</p></b>
     <p>Lorem Ipsum Dolor blah</p>
     <p>Come, be a part of Mozilla Sahyadri now!</p>
-    <Link to="/page-2/">Events</Link>
+    <Link to="/events">Events</Link>
   </Layout>
 )
 

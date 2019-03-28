@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import "../styles/header.css"
 const Header = ({ siteTitle }) => (
-  <header className="header"
+  <header className="Header"
   >
     <div className="Nav">
       <h1 className="MozSahyadri">
@@ -16,6 +16,14 @@ const Header = ({ siteTitle }) => (
          Mozilla Sahyadri
         </Link>
       </h1>
+        <ul className="NavList">
+        <li><Link to="/events" className="">
+          Events
+        </Link></li>
+        <li><Link to="/members" className="">
+          Members
+        </Link></li>
+        </ul>
     </div>
   </header>
 )

@@ -1,12 +1,13 @@
 html {
-    background-color: #b3e2b5;
+    background-color: #bdfdc0;
 }
 p{
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;   
 }
 a{
+    text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    color: #2f7c2d;
+    color: #18a53b;
 }  
