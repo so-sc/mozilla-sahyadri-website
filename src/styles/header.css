@@ -4,27 +4,38 @@
 
 .MozSahyadri{
     margin: 5px;
+    font-weight: 300;
 }
-
+.MozSahyadri a{
+    color: white;
+}
+.MozSahyadri a:hover:not(.active){
+    color:  black;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #44FFB4;
+}
 .Nav{    
     margin: 0 auto;
     max-width: 960;
-    padding: 1.1rem 3.1875rem;
+    padding: 1.0rem 3.1875rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .NavList{
     list-style: none;
+    list-style-type: none;
     display: flex;
     flex-direction: row;
-    margin: 12px;
+    margin: 1.7rem 1.1875rem;
 }
 .NavList a{
-    padding: 10px;
-    font-size: 1.79em;
+    padding: 0px 25px;
+    font-weight: lighter; 
+    font-size: 1.99em;
     color: white;
 }
 .NavList a:hover:not(.active){
-    color: #b0f5b3
+    color:  #44FFB4;
 }
+

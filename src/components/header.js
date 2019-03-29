@@ -9,11 +9,10 @@ const Header = ({ siteTitle }) => (
       <h1 className="MozSahyadri">
         <Link to="/"
           style={{
-            color: `white`,
             textDecoration: `none`,
           }}
         >
-         Mozilla Sahyadri
+         mozilla<br /> SAHYADRI
         </Link>
       </h1>
         <ul className="NavList">
