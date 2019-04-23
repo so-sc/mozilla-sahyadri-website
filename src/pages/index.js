@@ -11,6 +11,15 @@ const IndexPage = () => (
         <p>
           Mozilla’s mission is to ensure the Internet is a global public resource, open and accessible to all. A Mozilla University &amp; College Club is a group of students with a passion for technology who meet regularly to advance this mission by building and innovating on open source projects that keep the web open.
         </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
     <p>Come, be a part of Mozilla Sahyadri now!</p>
     <Link to="/events">Events</Link>
