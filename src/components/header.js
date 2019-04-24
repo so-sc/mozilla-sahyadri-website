@@ -24,11 +24,10 @@ const Header = ({ siteTitle }) => (
         </Link></li>
         </ul>
     </div>
-  </header>
-)
-
-
-// When the user scrolls down 240px from the top of the document, resize the navbar's padding and the logo's font size
+    <script
+  dangerouslySetInnerHTML={{
+    __html: `
+            // When the user scrolls down 240px from the top of the document, resize the navbar's padding and the logo's font size
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -45,6 +44,14 @@ function scrollFunction() {
     
   }
 }
+        `,
+  }}
+/>
+  </header>
+)
+
+
+
 
 Header.defaultProps = {
   siteTitle: ``,
