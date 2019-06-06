@@ -4,6 +4,7 @@
     font-weight: 300;
     font-size: calc(3.00em + 2.0vw);
     transition: 2s;
+    text-align: left;
 }
 .MozSahyadri a{
     color: white;
