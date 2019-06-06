@@ -1,8 +1,8 @@
 
 .MozSahyadri{
-    margin: 5px;
+    margin: 1.5vw 0vw;
     font-weight: 300;
-    font-size: calc(3.00em + 2.0vw);
+    font-size: calc(0.80em + 5.0vw);
     transition: 2s;
     text-align: left;
 }
@@ -22,22 +22,22 @@
     margin: 0 auto;
     top: 0;
     width: 100%;
-    padding: 9.0rem 15.1875rem;
+    padding: calc(5.0rem + 10.0vw);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 .NavList{
-    font-size: calc( 0.5em + 1.0vw);
+    font-size: calc( 0.3em + 1.2vw);
     list-style: none;
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    margin: 4rem 1.1875rem;
+    margin: 7vw 0vw;
     transition: 0.8s;
 }
 .NavList a{
-    padding: 0px 25px;
+    padding: 0vw 1.5vw;
     font-weight: lighter; 
     font-size: 1.99em;
     color: white;

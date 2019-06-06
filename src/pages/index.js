@@ -5,7 +5,7 @@ import "../styles/index.css"
 
 const IndexPage = () => (
   <Layout>
-    <p style={{margin:0,}}>Official Website of the Mozilla Campus Club at Sahyadri College of Engineering and Management</p>
+    <p>Official Website of the Mozilla Campus Club at Sahyadri College of Engineering and Management</p>
     <div class="col-md-9">
         <h2 id="heads">What is a Mozilla Campus Club?</h2>
         
@@ -48,5 +48,27 @@ const IndexPage = () => (
     <Link to="/events">Join us</Link>
   </Layout>
 )
+
+//Uncomment during development
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  //minimized
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    document.getElementById("Nav").style.padding = "0.2vw";
+    document.getElementById("NavList").style.fontSize = "calc(0.10em + 1.0vw)";
+    document.getElementById("MozSahyadri").style.fontSize = "calc(0.25em + 3.0vw)";
+    document.getElementById("NavList").style.margin = "4.8vw 0vw";
+    document.getElementById("MozSahyadri").style.margin = "calc(0.4em + 0.8vw) 0vw";  
+  }
+  //maximized 
+  else {
+    document.getElementById("Nav").style.padding = "calc(5.0rem + 10.0vw)";
+    document.getElementById("NavList").style.fontSize = "calc( 0.3em + 1.2vw)";
+    document.getElementById("MozSahyadri").style.fontSize = "calc(0.80em + 5.0vw)";
+    document.getElementById("NavList").style.margin = "7vw 0vw";
+    document.getElementById("MozSahyadri").style.margin = "1.5vw 0vw";  
+  }
+} 
 
 export default IndexPage
