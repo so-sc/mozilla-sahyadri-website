@@ -1,0 +1,16 @@
+#dp{
+    max-width: 40%;
+    max-height: 40%;
+    margin: 10px;
+    border-radius: 50%;
+}
+.MembersList{
+    list-style: none;
+}
+.MemberCard{
+    align-items: center;
+    margin: 100px 0px;
+}
+#member-p{
+    margin: 0px;
+}
