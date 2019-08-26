@@ -65,7 +65,7 @@ Header.defaultProps = {
 
 export default Header
 
-//Uncomment during development
+// // Uncomment during development
 // window.onscroll = function() {scrollFunction()};
 
 // function scrollFunction() {

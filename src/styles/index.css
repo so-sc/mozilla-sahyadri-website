@@ -1,7 +1,12 @@
-#heads{
-    margin: 25vh 0vw 10vh 0vw;
+.question{
+    margin: 30vh 0vh;
+    color: black;
     font-family: "Fira Sans", "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 200;
+    font-size: 2.1rem;
+}
+.answer{
+    margin-bottom: 30vh;
 }
 h2{
     text-align: center;
