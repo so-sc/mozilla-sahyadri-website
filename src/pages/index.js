@@ -5,7 +5,10 @@ import "../styles/index.css"
 
 const IndexPage = () => (
   <Layout>
-    <p>Official Website of the Mozilla Campus Club at Sahyadri College of Engineering and Management</p>
+    <p>
+      <img src="https://i.imgur.com/aOidzdc.jpg" height='50%' width='50%' alt="club logo" /><br />
+      Official Website of the Mozilla Campus Club at Sahyadri College of Engineering and Management
+    </p>
     <div class="col-md-9">
         <h2 id="heads">What is a Mozilla Campus Club?</h2>
         
