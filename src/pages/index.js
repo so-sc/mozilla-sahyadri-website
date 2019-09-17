@@ -5,11 +5,11 @@ import "../styles/index.css"
 
 const IndexPage = () => (
   <Layout>
-    <p>
-      <img src="https://i.imgur.com/aOidzdc.jpg" height='50%' width='50%' alt="club logo" /><br />
+    <center className="centered-content">
+      <img src="https://i.imgur.com/aOidzdc.jpg" height='50%' width='50%' alt="club logo" /><br /><br />
       Official Website of the Mozilla Campus Club at Sahyadri College of Engineering and Management
-    </p>
-    <div class="col-md-9">
+    </center>
+    <div className="question">
         <h2 id="heads">What is a Mozilla Campus Club?</h2>
     </div>
     <div className="answer">
@@ -48,10 +48,10 @@ const IndexPage = () => (
           The Mozilla Sahyadri Club Room is situated on the second floor, next to the iWave Lab at
           Sahyadri College of Engineering &amp; Management, Adyar, Mangalore, Karnataka, India
         </p>
-    <p>
+    <center>
           <img src="https://www.sahyadri.edu.in/images/gallery/Sahyadri-Campus-005.jpg" />
           <center>Sahyadri Campus</center>
-    </p>
+    </center>
     </div>
     
     <p>Come, be a part of Mozilla Sahyadri now!</p>
