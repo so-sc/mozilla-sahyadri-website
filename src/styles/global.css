@@ -3,8 +3,12 @@ html {
 }
 #heads{
     font-family: "Fira Sans", "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 200;
-    margin: 1000vw;  
+    font-weight: 200; 
+}
+.centered-content{
+    font-family: "Fira Sans", "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
+    margin: 20vw 0vw;
 }
 p{
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,

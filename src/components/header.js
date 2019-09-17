@@ -1,13 +1,34 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
+import PropTypes, { func } from "prop-types"
 import React from "react"
 import "../styles/header.css"
+
+function minimizeNav(){
+  document.getElementById("Nav").style.padding = "0.2vw";
+  document.getElementById("NavList").style.fontSize = "calc(0.10em + 1.0vw)";
+  document.getElementById("MozSahyadri").style.fontSize = "calc(0.25em + 3.0vw)";
+  document.getElementById("NavList").style.margin = "4.8vw 0vw";
+  document.getElementById("MozSahyadri").style.margin = "calc(0.4em + 0.8vw) 0vw";  
+}
+function maximizeNav(){
+  document.getElementById("Nav").style.padding = "calc(5.0rem + 10.0vw)";
+    document.getElementById("NavList").style.fontSize = "calc( 0.3em + 1.2vw)";
+    document.getElementById("MozSahyadri").style.fontSize = "calc(0.80em + 5.0vw)";
+    document.getElementById("NavList").style.margin = "7vw 0vw";
+    document.getElementById("MozSahyadri").style.margin = "1.5vw 0vw";  
+}
+
 const Header = ({ siteTitle }) => (
+  
   <header className="Header"
   >
     <div id="Nav" className="Nav">
       <h1 id="MozSahyadri" className="MozSahyadri">
-        <Link to="/"
+        <Link 
+          onClick={()=>{
+            minimizeNav();
+          }} 
+          to="/"
           style={{
             textDecoration: `none`,
           }}
@@ -16,10 +37,24 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
         <ul id="NavList"className="NavList">
-        <li><Link to="/events" className="">
+        <li>
+          <Link  
+              onClick={()=>{
+                minimizeNav();
+              }} 
+              to="/events"
+              className=""
+          >
           Events
-        </Link></li>
-        <li><Link to="/members" className="">
+          </Link>
+        </li>
+        <li>
+          <Link 
+            onClick={()=>{
+              minimizeNav();
+            }} 
+            to="/members" 
+            className="">
           Members
         </Link></li>
         </ul>
@@ -64,6 +99,7 @@ Header.defaultProps = {
 }
 
 export default Header
+
 
 // // Uncomment during development
 // window.onscroll = function() {scrollFunction()};

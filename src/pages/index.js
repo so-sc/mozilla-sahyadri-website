@@ -5,19 +5,21 @@ import "../styles/index.css"
 
 const IndexPage = () => (
   <Layout>
-    <p>Official Website of the Mozilla Campus Club at Sahyadri College of Engineering and Management</p>
-    <div className="col-md-9">
-        <div className="questionContainer">
-        <h2 className="question">What is a Mozilla Campus Club?</h2>
-        </div>
-        <div className="answer">
+    <center className="centered-content">
+      <img src="https://i.imgur.com/aOidzdc.jpg" height='50%' width='50%' alt="club logo" /><br /><br />
+      Official Website of the Mozilla Campus Club at Sahyadri College of Engineering and Management
+    </center>
+    <div className="question">
+        <h2 id="heads">What is a Mozilla Campus Club?</h2>
+    </div>
+    <div className="answer">
         <p>
           Mozilla’s mission is to ensure the Internet is a global public resource,
           open and accessible to all. A Mozilla University &amp;
           College Club is a group of students with a passion for technology who meet regularly to advance
           this mission by building and innovating on open source projects that keep the web open.
         </p>
-        </div>
+    </div>
         <p>
           <img src="https://user-images.githubusercontent.com/18684321/47107243-6ce14580-d266-11e8-9c3a-18f0b49013d4.jpg" alt=""/>
           <center>Hacktoberfest Hacknight 2018</center>
@@ -38,8 +40,6 @@ const IndexPage = () => (
           <center>AR/VR workshop conducted by Mozilla Sahyadri</center>
         </p>
 
-      </div>
-    
     <div className="questionContainer">
     <h2 className="question">Where is Mozilla Sahyadri Located?</h2>
     </div>    
@@ -48,10 +48,10 @@ const IndexPage = () => (
           The Mozilla Sahyadri Club Room is situated on the second floor, next to the iWave Lab at
           Sahyadri College of Engineering &amp; Management, Adyar, Mangalore, Karnataka, India
         </p>
-    <p>
+    <center>
           <img src="https://www.sahyadri.edu.in/images/gallery/Sahyadri-Campus-005.jpg" />
           <center>Sahyadri Campus</center>
-    </p>
+    </center>
     </div>
     
     <p>Come, be a part of Mozilla Sahyadri now!</p>

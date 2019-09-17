@@ -1,20 +1,22 @@
+.questionContainer{
+    margin: 10vw 0vw;
+}
 .question{
-    margin: 30vh 0vh;
+    margin-top: 20vh;
     color: black;
     font-family: "Fira Sans", "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 200;
     font-size: 2.1rem;
 }
 .answer{
-    margin-bottom: 30vh;
+    margin-bottom: 10vh;
 }
 h2{
-    text-align: center;
+    text-align: left;
 }
 p{
-    text-align: center;
-    
-    margin: 15vh 0vw;
+    text-align: justify;
+    margin: 15vw 0vw;
 }
 center{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
