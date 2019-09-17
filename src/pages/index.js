@@ -40,8 +40,6 @@ const IndexPage = () => (
           <center>AR/VR workshop conducted by Mozilla Sahyadri</center>
         </p>
 
-      </div>
-    
     <div className="questionContainer">
     <h2 className="question">Where is Mozilla Sahyadri Located?</h2>
     </div>    
