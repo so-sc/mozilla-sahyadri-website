@@ -2,9 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import "../styles/events.css"
 
-import Layout from "../components/layout"
 const SecondPage = () => (
-  <Layout>
+  <>
     <h1>Mozilla Sahyadri Events</h1>
     <p>We love conducting Events at Mozilla Sahyadri and have conducted a number of them over the
       past few months, including:</p>
@@ -29,7 +28,7 @@ const SecondPage = () => (
       <center>Firefox Add-Ons Workshop conducted by Mozilla Sahyadri in collaboration with mozilla NITK</center>
     </div>
     <Link to="/">Go back to the homepage</Link>
-  </Layout>
+  </>
 )
 
 export default SecondPage
