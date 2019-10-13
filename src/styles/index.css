@@ -5,20 +5,20 @@
     margin-top: 20vh;
     color: black;
     font-family: "Fira Sans", "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 2.1rem;
 }
 .answer{
-    margin-bottom: 10vh;
+    margin- auto;
 }
 h2{
-    text-align: left;
+    text-align: right;
 }
 p{
-    text-align: justify;
+    text-align: center;
     margin: 15vw 0vw;
 }
 center{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 0.9em;
+    font-size: 0.7em;
 }
