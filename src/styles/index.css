@@ -3,19 +3,19 @@
 }
 .question{
     margin-top: 20vh;
-    color: black;
+    color: white;
     font-family: "Fira Sans", "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 2.1rem;
 }
 .answer{
     margin-bottom: 10vh;
 }
 h2{
-    text-align: left;
+    text-align: right;
 }
 p{
-    text-align: justify;
+    text-align: center;
     margin: 15vw 0vw;
 }
 center{
