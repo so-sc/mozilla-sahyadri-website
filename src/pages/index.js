@@ -1,10 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
-import Layout from "../components/layout"
 import "../styles/index.css"
 
 const IndexPage = () => (
-  <Layout>
+  <>
     <center className="centered-content">
       <img src="https://i.imgur.com/aOidzdc.jpg" height='50%' width='50%' alt="club logo" /><br /><br />
       Official Website of the Mozilla Campus Club at Sahyadri College of Engineering and Management
@@ -56,7 +55,7 @@ const IndexPage = () => (
     
     <p>Come, be a part of Mozilla Sahyadri now!</p>
     <Link to="/events">Join us</Link>
-  </Layout>
+  </>
 )
 
 export default IndexPage

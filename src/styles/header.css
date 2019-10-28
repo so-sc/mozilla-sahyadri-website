@@ -1,47 +1,70 @@
+.Header {
+    position: sticky;
+    top: 0;
+}
 
-.MozSahyadri{
-    margin: 1.5vw 0vw;
-    font-weight: 300;
-    font-size: calc(0.80em + 5.0vw);
-    transition: 2s;
-    text-align: left;
-}
-.MozSahyadri a{
-    color: white;
-}
-.MozSahyadri a:hover:not(.active){
-    color:  #44FFB4;
-    border-radius: 0px 10px 10px 0px;
-}
 .Nav{
-    overflow: hidden;
-    position: fixed;
+    position: relative;
     background-color: black;
     transition: 2s;
     z-index: 99;
     margin: 0 auto;
     top: 0;
     width: 100%;
-    padding: calc(5.0rem + 10.0vw);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 0.2vw;
 }
+
+.Nav.Expanded {
+    padding: calc(5.0rem + 10.0vw);
+}
+
+.MozSahyadri{
+    margin: calc(0.4em + 0.8vw) 0vw;
+    font-weight: 300;
+    font-size: calc(0.25em + 3.0vw);
+    transition: 2s;
+    text-align: left;
+}
+
+.Expanded .MozSahyadri {
+    font-size: calc(0.80em + 5.0vw);
+    margin: 1.5vw 0vw;
+}
+
+.MozSahyadri a{
+    color: white;
+}
+
+.MozSahyadri a:hover:not(.active){
+    color:  #44FFB4;
+    border-radius: 0px 10px 10px 0px;
+}
+
 .NavList{
-    font-size: calc( 0.3em + 1.2vw);
+    font-size: calc(0.10em + 1.0vw);
     list-style: none;
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    margin: 7vw 0vw;
+    margin: 4.8vw 0vw;
     transition: 0.8s;
 }
+
+.Expanded .NavList {
+    font-size: calc(0.3em + 1.2vw);
+    margin: 7vw 0vw;
+}
+
 .NavList a{
     padding: 0vw 1.5vw;
     font-weight: lighter; 
     font-size: 1.99em;
     color: white;
 }
+
 .NavList a:hover:not(.active){
     color:  #44FFB4;
 }
